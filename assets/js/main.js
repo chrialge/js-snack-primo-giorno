@@ -48,7 +48,7 @@ esercizio 3:    + Dichiara una variabile chiamata name e
 
 */
 
-let userName = "Carlo";//variabile con valore string
+let userName = "Carlo";//la console ci dara il valore della variabile
 console.log(userName);//la console ci dara il valore della variabile
 
 userName = "Marco";//variabile con valore string
@@ -74,7 +74,7 @@ esercizio 6: Per scrivere dentro la nostra console utilizziamo la sua funzione .
  Esistono altri metodi da usare con console. ?
 */
 
-console.info('Il mio messaggio');
+console.info('Il mio messaggio');//la console ci dara il valore della variabile
 
 /* tutte e due usano messaggi statici di output alla console ma info in firefoxmostra una piccola icona di i dopo gli oggetto di console.log ci sono altri 19 metodi per usare console oltre questo
 
@@ -86,11 +86,11 @@ esercizio 7: Scrivete un piccolo blocco di codice che utilizza un blocco if per 
 */
 
 if (true) {
-    var variabileVar = "Sono definita con var";
-    let variabileLet = "Sono definita con let";
+    var variabileVar = "Sono definita con var";//variabile con valore string
+    let variabileLet = "Sono definita con let";//variabile con valore string
 }
-console.log(variabileVar);
-console.log(variabileLet);
+console.log(variabileVar);//la console ci dara il valore della variabile
+console.log(variabileLet);//la console ci dara il valore della variabile
 
 /*succede che il var viene viene visualizzata sulla console mentre let no anzi ci esce errore e dice che let non e definita, cercano un po ho capito che tra le parentesi si chiama scope locale e in esso
 il let non pue essere chimata al di fuori(scope globale) quindi se metto il console.log(variableLet)
