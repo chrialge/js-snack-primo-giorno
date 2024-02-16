@@ -40,3 +40,16 @@ Per quelli che hanno finito ma vogliono divertirsi ancora un po' ecco altri snac
  Per scrivere dentro la nostra console utilizziamo la sua funzione .log() ma se scrivessimo console.info('Il mio messaggio') che differenza c'è? Perche?
  Esistono altri metodi da usare con console. ?
  (aiutatevi con una ricerca su internet per tennere allenate il vostro brain)
+
+e l'esercizio che mi hanno fatto togliere
+-Esercizio 7: Differenza tra var e let
+ Scrivete un piccolo blocco di codice che utilizza un blocco if per vedere come var e let si comportano diversamente rispetto allo scope.
+ Non soffermatevi per ora sul significato di scope, vi verrà spiegato, è solo il limite di visibilità di una variabile.
+    if (true) {
+    var variabileVar = "Sono definita con var";
+    let variabileLet = "Sono definita con let";
+    }
+    console.log(variabileVar);
+    console.log(variabileLet);
+ Scrivete in un commento dopo i 2 console.log che cosa sta succedendo ...
+ Avete capito ora che cos'è il Hoisting? Chiedete a Fabio domattina in caso contrario.
