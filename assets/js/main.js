@@ -18,11 +18,17 @@ console.log(numberPi);//la console ci dara il valore della variabile
 esercizio 2b: Prova ad assegnare alla costante chiamata PI il valore di 3.1416. Sai dire cosa succede?
 */
 
-let numberpi = 3.1416;//variabile con valore number
+numberPi = 3.1416;//variabile con valore number
 console.log(numberPi);//la console ci dara il valore della variabile
 
 // risposta: non va oltre le due cifre doppo la virgola.
 // soluzione: usare come valore una stringa.
+// soluzione per mostralo
+
+numberPi = 31416e-4;//variabile con valore number
+console.log(numberPi);//la console ci dara il valore della variabile
+
+
 
 /*
 esercizio 2c:   + Dichiara una variabile chiamata radius e assegnale il valore 8.
