@@ -53,3 +53,11 @@ console.log(userName);//la console ci dara il valore della variabile
 
 userName = "Marco";//variabile con valore string
 console.log(userName);//la console ci dara il valore della variabile
+
+/*
+esercizio 4: Dichiara una variabile chiamata temperature e assegnale il valore 22.5. Successivamente, aumenta il suo valore di 5 e stampa il nuovo valore in console.
+*/
+
+let temperature = 22.5;
+temperature = temperature + 5;
+console.log(temperature);
