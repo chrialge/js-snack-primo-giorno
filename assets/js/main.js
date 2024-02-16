@@ -85,14 +85,17 @@ esercizio 7: Scrivete un piccolo blocco di codice che utilizza un blocco if per 
 
 */
 
+let variabileLet = "okey si va";
+
 if (true) {
     var variabileVar = "Sono definita con var";//variabile con valore string
     let variabileLet = "Sono definita con let";//variabile con valore string
+    console.log(variabileLet);
 }
 console.log(variabileVar);//la console ci dara il valore della variabile
 console.log(variabileLet);//la console ci dara il valore della variabile
 
-/*succede che il var viene viene visualizzata sulla console mentre let no anzi ci esce errore e dice che let non e definita, cercano un po ho capito che tra le parentesi si chiama scope locale e in esso
-il let non pue essere chimata al di fuori(scope globale) quindi se metto il console.log(variableLet)
-dentro lo scope locale della variabile lo prende mentre il var non ha problemi puo essere richiamato fuori dal proprio scope locale. mentre l'hoisting ce solo per il var e sarebbe l'inalzzamento della variabile quindi se faccio un console.log sopra e sotto il var me lo visualizza ma il valore no.
+/*
+Succede che il var viene viene visualizzata sulla console mentre let no, anzi ci esce errore e dice che let e undefined, cercanddo un po su internet ho  scoperto che lo spazio tra le parentesi graffe viene definito scope locale, e quello al di fuori scope globale. Il 'let' puo essere richiamata (console.log(variablelet)) solo all'interno del suo scope, cioe se si trova in uno scope locale puo essere solo richimata all'interno della sua scope.
+Mentre l'hoisting tra le variabili funziona solo per il var e sarebbe l'inalzzamento della variabile, cioe se scrivi nell'ultima riga l'interprete lo legge per primo naturalmente se faccio un console.log() quindi me lo visualizza ma il valore in output e indefined.
 */
